@@ -80,7 +80,7 @@ func getAVRoute(socketKey string, channel string) (string, error) {
 func getAVRouteDo(socketKey string, channel string) (string, error) {
 	function := "getAVRouteDo"
 
-	connected := framework.ConnectionsMapExists(socketKey)
+	connected := framework.CheckConnectionsMapExists(socketKey)
 	if connected == false{
 		negotiation := loginNegotiation(socketKey)
 		if negotiation == false {
@@ -165,7 +165,7 @@ func setAVRouteDo(socketKey string, output string, input string) (string, error)
 	function := "setAVRouteDo"
 	input = strings.Trim(input, "\"")
 
-	connected := framework.ConnectionsMapExists(socketKey)
+	connected := framework.CheckConnectionsMapExists(socketKey)
 	if connected == false{
 		negotiation := loginNegotiation(socketKey)
 		if negotiation == false {
