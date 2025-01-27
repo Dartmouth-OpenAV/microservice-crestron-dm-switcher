@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "f1bcaccf-7e2e-41ea-a4f0-b1467c45b2ad",
+		"name": "Crestron DM Switcher microservice",
+		"description": "A collection of all possible GET and PUT calls for the Crestron DM Switcher microservice. You can replace the values in double curly brackets manually or create matching environment variables that will automatically fill in the values.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26997154"
+	},
+	"item": [
+		{
+			"name": "GET avroute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{microserviceURL}}/{{deviceFQDN}}/avroute/1",
+					"protocol": "http",
+					"host": [
+						"{{microserviceURL}}"
+					],
+					"path": [
+						"{{deviceFQDN}}",
+						"avroute",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SET avroute",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"2\""
+				},
+				"url": {
+					"raw": "http://{{microserviceURL}}/{{deviceFQDN}}/avroute/1",
+					"protocol": "http",
+					"host": [
+						"{{microserviceURL}}"
+					],
+					"path": [
+						"{{deviceFQDN}}",
+						"avroute",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET videoroute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{microserviceURL}}/{{deviceFQDN}}/videoroute/1",
+					"protocol": "http",
+					"host": [
+						"{{microserviceURL}}"
+					],
+					"path": [
+						"{{deviceFQDN}}",
+						"videoroute",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SET videoroute",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"2\""
+				},
+				"url": {
+					"raw": "http://{{microserviceURL}}/{{deviceFQDN}}/videoroute/1",
+					"protocol": "http",
+					"host": [
+						"{{microserviceURL}}"
+					],
+					"path": [
+						"{{deviceFQDN}}",
+						"videoroute",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
