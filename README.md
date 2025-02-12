@@ -1,8 +1,13 @@
 # Crestron DM Switcher
-This microservice works with the following Crestron devices, although only DM-MD8x8 was tested:  
-- DM-MD8x8 
-- DM-MD16x16 
-- DM-MD32x32 
+A switcher maps one of multiple input signals (audio and/or video) to a specified output.  This microservice communicates with and controls the Crestron switchers via Telnet.
+It works with the following Crestron switchers, even though only the DM-MD8x8 was tested:
+DM-MD8x8
+DM-MD16x16
+DM-MD32x32
+[Crestron DigitalMedia Matrix Switchers](https://www.crestron.com/Products/Featured-Solutions/DigitalMedia-Matrix-Switchers)
+
+![](https://github.com/Dartmouth-OpenAV/microservice-crestron-dm-switcher/blob/main/front.png)
+![](https://github.com/Dartmouth-OpenAV/microservice-crestron-dm-switcher/blob/main/rear.png)
 
 The following operations are supported:  
 set **'avroute'**, set **'videoroute'**, get **'avroute'**, get **'videoroute'** using the same endpoint syntax as Kramer switchers.  
