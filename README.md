@@ -18,7 +18,7 @@ The below bash script was used for stress testing the DM-MD8x8.  Over 100 loops 
 ```bash
 #!/bin/bash
 
-SWITCHER=10.28.89.23
+SWITCHER=<IP ADDRESS>
 sleep 2
 let count=0
 while true
