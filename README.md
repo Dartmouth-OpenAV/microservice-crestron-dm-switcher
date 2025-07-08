@@ -10,6 +10,8 @@ DM-MD32x32
 
 [Crestron DigitalMedia Matrix Switchers](https://www.crestron.com/Products/Featured-Solutions/DigitalMedia-Matrix-Switchers)
 
+[curl test documentation](https://github.com/Dartmouth-OpenAV/documentation/blob/main/curl_test_readme.md)
+
 ![](https://github.com/Dartmouth-OpenAV/microservice-crestron-dm-switcher/blob/main/front.png)
 ![](https://github.com/Dartmouth-OpenAV/microservice-crestron-dm-switcher/blob/main/rear.png)
 
